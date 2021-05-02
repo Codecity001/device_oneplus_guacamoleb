@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/descendant_guacamoleb.mk
+    $(LOCAL_DIR)/dot_guacamoleb.mk
 
 COMMON_LUNCH_CHOICES := \
-    descendant_guacamoleb-user \
-    descendant_guacamoleb-userdebug \
-    descendant_guacamoleb-eng
+    dot_guacamoleb-user \
+    dot_guacamoleb-userdebug \
+    dot_guacamoleb-eng

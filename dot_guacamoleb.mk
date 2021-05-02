@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from guacamoleb device
 $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
-# Inherit some common Descendant stuff.
-$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
+# Inherit some common DotOS stuff.
+$(call inherit-product, vendor/dot/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := descendant_guacamoleb
+PRODUCT_NAME := dot_guacamoleb
 PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7
@@ -31,8 +31,11 @@ PRODUCT_USES_QCOM_HARDWARE := true
 TARGET_SUPPORTS_BLUR := true
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2240
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# FOD Animation
+EXTRA_FOD_ANIMATIONS := true
+
 
 # Build info
 BUILD_FINGERPRINT := "OnePlus/OnePlus7/OnePlus7:10/QKQ1.190716.003/2003131900:user/release-keys"
