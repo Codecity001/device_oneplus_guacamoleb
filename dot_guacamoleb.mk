@@ -41,7 +41,7 @@ EXTRA_FOD_ANIMATIONS := true
 
 
 # Build info
-BUILD_FINGERPRINT := "OnePlus/OnePlus7/OnePlus7:10/QKQ1.190716.003/2003131900:user/release-keys"
+BUILD_FINGERPRINT := "OnePlus/OnePlus7/OnePlus7:11/RKQ1.201022.002/2105071635:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7 \
     PRODUCT_NAME=OnePlus7 \
