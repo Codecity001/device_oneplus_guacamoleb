@@ -9,7 +9,7 @@ BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/guacamoleb
 
 # Display
-TARGET_SCREEN_DENSITY := 480
+TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
