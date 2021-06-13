@@ -353,7 +353,13 @@
          appearance of the cutout as much as possible, and may be smaller than
          config_mainBuiltInDisplayCutout
          -->
-     <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">@string/config_mainBuiltInDisplayCutout</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
+        M -85,0
+        V 79
+        H 85
+        V 0
+        Z
+    </string>
 
     <!-- Radius of the software rounded corners at the bottom of the display
         in its natural orientation. If zero, the value of rounded_corner_radius is used. -->
