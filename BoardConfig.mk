@@ -12,7 +12,7 @@ DEVICE_PATH := device/oneplus/guacamoleb
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := gulch_sdcardfs_defconfig
+#TARGET_KERNEL_CONFIG := gulch_sdcardfs_defconfig
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
