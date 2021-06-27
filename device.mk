@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
+# Device Personalization Services
+PRODUCT_PACKAGES += \
+    MatchmakerPrebuilt
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator@1.2-service
