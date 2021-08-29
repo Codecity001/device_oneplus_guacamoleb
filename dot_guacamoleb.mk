@@ -30,6 +30,12 @@ PRODUCT_USES_QCOM_HARDWARE := true
 # Gapps
 WITH_GAPPS := true
 
+# ARcore
+TARGET_INCLUDE_STOCK_ARCORE := true
+
+#GoogleRecorder
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 # Blur
 TARGET_SUPPORTS_BLUR := true
 
