@@ -18,7 +18,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 PRODUCT_NAME := dot_guacamoleb
 PRODUCT_DEVICE := guacamoleb
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := GM1901
+PRODUCT_MODEL := GM1905
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := xxhdpi
